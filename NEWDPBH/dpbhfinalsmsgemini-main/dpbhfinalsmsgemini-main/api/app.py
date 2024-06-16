@@ -16,10 +16,11 @@ category_classifier = load('category_classifier.joblib')
 category_vect = load('category_vectorizer.joblib')
 
 # Twilio API credentials
-account_sid = 'AC9e74b1550ed644f5678703bfbdd35708'
-auth_token = '418b52f9fee53315a306130716d459d3'
-twilio_phone_number = '+12133772474'
-recipient_phone_number = '+918856849368'
+#insert your own api keys and number 
+account_sid = ''
+auth_token = ''
+twilio_phone_number = ''
+recipient_phone_number = ''
 
 app = Flask(__name__)
 CORS(app)
